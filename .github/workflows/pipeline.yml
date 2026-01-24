@@ -1,17 +1,45 @@
-pipeline_definition:
-  name: AMD_Cohesive_Truth_Deploy
-  stages:
-    - stage: Code_Audit
-      condition: always()
-    - stage: Build_Container
-      tool: Docker
-      image: amd-production-v1
-    - stage: Security_Scan
-      type: Zero-Knowledge-Validation
-    - stage: Quality_Gate
-      action: Manual_Approval_Required # Aici intervii tu, Maestrul.
+name: AMD_Cohesive_Truth_Deploy
 
-deployment_target:
-  environment: Production
-  monitoring: Prometheus
-  
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  Code_Audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 🐍 Setup Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: 💎 Run Validation Engine
+        env:
+          GITHUB_ACTIONS: true
+        run: python run_validation.py
+
+  Security_Scan:
+    needs: Code_Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 🛡️ Zero-Knowledge Validation
+        run: |
+          # Verificăm dacă motorul a generat certificatul ZKP
+          python run_validation.py
+          if [ -f data/vault/certificat_zero_knowledge.txt ]; then
+            echo "✅ ZKP Integrity Confirmed"
+          else
+            echo "❌ Integrity Breach"
+            exit 1
+          fi
+
+  Quality_Gate:
+    needs: Security_Scan
+    runs-on: ubuntu-latest
+    environment: Production # Aici intervine "Manual Approval" din setările GitHub
+    steps:
+      - name: 🤝 Final Truth Approval
+        run: echo "Validat de Maestru pentru Producție."
