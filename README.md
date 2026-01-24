@@ -1,19 +1,46 @@
-# 🧨 Red-Purple Team Offensive Toolkit
+# Offensive Security Automation Cloud 🚀
 
-An advanced, enterprise-grade repository for Red Team operations, Purple Team adversary emulation, and offensive security research.
+[![Status: Production-Ready](https://img.shields.io)](https://github.com)
+[![Focus: Cloud Pentesting](https://img.shields.io)](https://azure.microsoft.com)
+[![Framework: MITRE ATT&CK](https://img.shields.io)](https://attack.mitre.org)
 
-## 📋 Table of Contents
-1. **[Exploitation Scripts](./Exploitation-Scripts)** - Automation for attack surface mapping.
-2. **[Malware Dev Research](./Malware-Dev-Research)** - EDR evasion and stealth execution.
-3. **[Cloud Pentesting](./Cloud-Pentesting)** - Azure AD and O365 security assessments.
-4. **[Purple Team Emulation](./Purple-Team-Adversary-Emulation)** - Bridging offensive actions with defensive detection (MITRE ATT&CK).
+## 🚀 Overview
+Acest repository reprezintă un **Advanced Offensive Security & DevSecOps Framework**, axat pe simularea atacurilor complexe și securizarea infrastructurilor cloud. Proiectul include cercetare avansată în **EDR Evasion** și implementarea de **automated security quality gates**, asigurând o postură de securitate robustă pentru pipeline-urile **CI/CD enterprise**.
 
-## 🚀 Key Research Areas
-- **Red Teaming:** Manual exploitation of Unix/Windows systems beyond automated tools.
-- **Purple Teaming:** Closing detection gaps by collaborating with defensive teams.
-- **Cloud Security:** Research into privilege escalation within Azure/O365.
-- **AI Security:** Testing LLM-based applications for adversarial attacks (Prompt Injection).
+**Target:** Cloud Architect, Red Teamers, DevSecOps Specialists.  
+**Focus:** Kyma Runtimes, RPO/RTO Optimization, SIEM Triage, and SAP Cloud SDK Patterns.
 
-## 📍 Availability
-- **Location:** București / Râmnicu Vâlcea.
-- **Status:** Available for Freelance / Client-by-client basis.
+## ⚙️ Operational Excellence (DevSecOps Standards)
+Proiectul integrează securitatea ofensivă ca un pilon de stabilitate operațională și reziliență:
+
+* **Resilience (Attack Simulation):** Testarea rezilienței sistemelor prin simulări de adversari, permițând echipelor de defensivă să identifice lacunele înainte de un incident real.
+* **Scalability (Automated Gates):** Integrarea testelor de securitate în pipeline-uri **CI/CD**, scalând verificările de vulnerabilități la nivelul întregii organizații prin procese automatizate.
+* **Security Governance (MITRE Mapping):** Maparea fiecărei tehnici pe cadrul **MITRE ATT&CK** pentru a asigura conformitatea cu standardele globale de auditare și raportare.
+* **Observability (Detection Engineering):** Îmbunătățirea vizibilității asupra atacurilor prin analiza amprentelor lăsate de scripturile de exploatare în log-urile de sistem (SOC/SIEM).
+
+
+
+## 🛠️ Key Strategic Modules
+- **Exploitation Scripts:** Automatizare pentru maparea suprafeței de atac și identificarea vectorilor de intrare în medii hibride.
+- **Malware Dev Research:** Tehnici de **EDR Evasion** și cercetare pentru evaluarea eficacității soluțiilor de endpoint protection.
+- **Cloud Pentesting:** Evaluarea securității identităților și a resurselor în **Azure AD** și **O365**.
+- **Purple Team Emulation:** Colaborare între echipa ofensivă și cea defensivă pentru a rafina alertele de securitate și timpul de răspuns.
+
+## 🏗️ Architecture & Compliance
+- **Red Teaming:** Exploatare avansată axată pe scenarii reale de compromitere a infrastructurii.
+- **Adversary Emulation:** Reproducerea tacticilor utilizate de grupările **APT** (Advanced Persistent Threats) pentru validarea apărării.
+- **Cloud Infrastructure:** Securizarea workflow-urilor cloud prin automatizarea verificărilor de configurări eronate.
+
+## 🚦 Getting Started
+1. **Clone:** `git clone https://github.com/adrianroman1/offensive-security-automation-cloud.git`
+2. **Install Requirements:** `pip install -r requirements.txt`
+3. **Run Simulation:** `python emulator/adversary_sim.py --profile mitre_t1003`
+
+---
+
+## 👨‍💻 About the Author
+
+**Adrian Roman** **Senior IT Management Specialist | Cloud Integration & Operations** *15+ ani în leadership tehnologic, integrări SAP BTP și managementul sistemelor reziliente.*
+
+- **Locație:** București / Râmnicu Vâlcea (Disponibilitate Hybrid / Remote / Timișoara).
+- **Mindset:** Eficiență operațională, securitate proactivă și arhitecturi scalabile orientate spre rezultat.
