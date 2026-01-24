@@ -35,13 +35,13 @@ def generate_integrity_proof():
 
 # 4. Execuția și Afișajul pe Telefon
 if __name__ == "__main__":
-    time, h = generate_integrity_proof()
+    time_stamp, h = generate_integrity_proof()
     print("\n" + "="*30)
     print("🛡️  AMD SECURITY FRAMEWORK")
     print("="*30)
-    print(f"📅 DATA: {time}")
+    print(f"📅 DATA: {time_stamp}")
     print(f"🔒 HASH: {h[:16]}...") 
-    print("✅ Status: Raport generat în data/vault/")
+    print("✅ Status: Raport generat cu succes!")
     print("="*30 + "\n")
     
 def star_performance_header():
