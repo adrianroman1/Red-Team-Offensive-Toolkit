@@ -1,0 +1,6 @@
+data/vault/*
+*.log
+.git
+__pycache__/
+docs/AMD_REACH.md
+
