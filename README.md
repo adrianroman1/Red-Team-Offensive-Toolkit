@@ -8,7 +8,7 @@
 Acest repository reprezintă un **Advanced Offensive Security & DevSecOps Framework**, axat pe simularea atacurilor complexe și securizarea infrastructurilor cloud. Proiectul include cercetare avansată în **EDR Evasion** și implementarea de **automated security quality gates**, asigurând o postură de securitate robustă pentru pipeline-urile **CI/CD enterprise**.
 
 **Target:** Cloud Architect, Red Teamers, DevSecOps Specialists.  
-**Focus:** Kyma Runtimes, RPO/RTO Optimization, SIEM Triage, and SAP Cloud SDK Patterns.
+**Focus:** Cloud Pentesting (Azure/O365), Adversary Emulation (MITRE ATT&CK), and EDR Evasion.
 
 ## ⚙️ Operational Excellence (DevSecOps Standards)
 Proiectul integrează securitatea ofensivă ca un pilon de stabilitate operațională și reziliență:
@@ -17,8 +17,6 @@ Proiectul integrează securitatea ofensivă ca un pilon de stabilitate operațio
 * **Scalability (Automated Gates):** Integrarea testelor de securitate în pipeline-uri **CI/CD**, scalând verificările de vulnerabilități la nivelul întregii organizații prin procese automatizate.
 * **Security Governance (MITRE Mapping):** Maparea fiecărei tehnici pe cadrul **MITRE ATT&CK** pentru a asigura conformitatea cu standardele globale de auditare și raportare.
 * **Observability (Detection Engineering):** Îmbunătățirea vizibilității asupra atacurilor prin analiza amprentelor lăsate de scripturile de exploatare în log-urile de sistem (SOC/SIEM).
-
-
 
 ## 🛠️ Key Strategic Modules
 - **Exploitation Scripts:** Automatizare pentru maparea suprafeței de atac și identificarea vectorilor de intrare în medii hibride.
