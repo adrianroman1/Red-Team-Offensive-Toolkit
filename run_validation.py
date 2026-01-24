@@ -5,15 +5,17 @@ import time
 import hashlib
 import os
 
-# 1. Infrastructură (Asigurăm folderele)
+from datetime import datetime  # <--- ACEASTA ESTE LINIA CARE LIPSEȘTE
+
+# 1. Infrastructură
 os.makedirs('data/vault', exist_ok=True)
 
-# 2. Pipeline Check (Bifa verde GitHub)
+# 2. Pipeline Check pentru GitHub Actions
 if "--ci-mode" in sys.argv:
     print("--- AMD CI/CD Pipeline Validation Success ---")
     sys.exit(0)
 
-# 3. Logica de Validare (Adevărul Tehnic)
+# 3. Logica de Validare
 def generate_integrity_proof():
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     # Generăm un hash unic bazat pe timestamp și un secret simbolic
