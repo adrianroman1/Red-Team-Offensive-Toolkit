@@ -1,8 +1,8 @@
 # Cohesive Cloud Validation & Technical Truth 🤝
 
-[![Status: Production-Ready](https://img.shields.io/badge/Status-Production--Ready-brightgreen)](#)
-[![Focus: Cloud Resilience](https://img.shields.io/badge/Focus-Cloud%20Resilience-blue)](#)
-[![Framework: Partner%20Integration](https://img.shields.io/badge/Framework-Partner%20Integration-orange)](#)
+[![Status: Production-Ready](https://img.shields.io/badge/Status-Production--Ready-brightgreen?style=flat-square)](https://github.com/adrianroman1)
+[![Focus: Cloud Resilience](https://img.shields.io/badge/Focus-Cloud%20Resilience-blue?style=flat-square)](https://github.com/adrianroman1)
+[![Framework: Partner%20Integration](https://img.shields.io/badge/Framework-Partner%20Integration-orange?style=flat-square)](https://github.com/adrianroman1)
 
 ## 🚀 Overview
 Acest repository reprezintă un **Advanced Cloud Security & DevSecOps Framework**, axat pe validarea infrastructurilor și creșterea rezilienței prin colaborare strategică. Proiectul pune accent pe **Partner Integration** și implementarea de **security quality gates**, asigurând o postură de securitate robustă dezvoltată prin dialog constructiv între toate părțile implicate în pipeline-urile **CI/CD enterprise**.
