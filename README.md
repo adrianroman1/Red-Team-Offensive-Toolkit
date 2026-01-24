@@ -43,7 +43,7 @@ Proiectul integrează securitatea ca un pilon de stabilitate și încredere:
 ## 🚦 Getting Started
 1. **Clone:** `git clone https://github.com/adrianroman1/collaborative-security-automation-cloud.git`
 2. **Install Requirements:** `pip install -r requirements.txt`
-3. **Join the Table:** `python emulator/validation_sim.py --profile partner_sync`
+3. **Join the Table:** `python run_validation.py`
 
 ---
 
