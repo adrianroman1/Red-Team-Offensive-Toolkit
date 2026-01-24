@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+  external_labels:
+    monitor: 'amd-validation-production'
+
+scrape_configs:
+  - job_name: 'resilience_metrics'
+    static_configs:
+      - targets: ['localhost:8000']
+      
